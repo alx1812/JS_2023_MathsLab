@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: lightgrey;
+    height: 50px;
+}
+
+nav {
+    /* border: 5px dotted black;  */
+    /* width: max-content; */
+    height: inherit;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.about_us {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+}
+
+/* .about_us > div{display: flex; justify-content: center;} */
+
+.about_us_description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_description * {
+   padding: 5px;
+}
+
+.about_us img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* img {
+    width: 400px;
+    margin: 10px 200px;
+} */
+
+span {
+    font-size: 15px;
+}
+
+.name {
+    color: red;
+}
+
+#skill {
+    color: green;
+}
+
+h1 {
+    border: 3px solid grey;
+    padding: 0;
+    margin: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.my_game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.my_game > * {
+    text-align: center;
+}
+
+.my_game input, .my_game button {
+    border: none;
+    margin: 5px;
+    min-height: 30px;
+}
+
+.my_game button {
+ width: max-content;
+ background-color: lightgreen;
+ padding: 0 10px;
+ border-radius: 10px;
+}
+
+.my_game input{
+    background-color: lightgray;
+    outline: none;
+}
+
+.choosed_blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosed_blocks-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+
+.choosed_blocks-container > div {
+width: 150px;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: coral;}
+
+.choosed_element {
+    border: 3px solid black;
+}
+
+
+
